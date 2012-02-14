@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name        = 'dbi'
   spec.version     = '0.4.5'
   spec.test_file   = 'test/ts_dbi.rb'
-  spec.executables = ['dbi', 'test_broken_dbi']
+  spec.executables = []
   spec.summary     = 'A vendor independent interface for accessing databases, similar to Perl\'s DBI'
   spec.description = 'A vendor independent interface for accessing databases, similar to Perl\'s DBI'
   spec.add_dependency 'deprecated', '~> 3.0.0'
